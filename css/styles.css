@@ -457,3 +457,78 @@ body a {
   color: #f4f4fd;
   max-width: 264px;
 }
+.footer-form-email {
+  display: flex;
+  width: 453px;
+  height: 80px;
+  margin-left: 80px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-form-email-title {
+  color: var(--WHITE, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+.footer-form-email-input {
+  border-radius: 4px;
+  border: 1px solid var(--WHITE, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin-right: 24px;
+  background-color: #2e2f42;
+  color: #fff;
+}
+
+.footer-form-email-btn {
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 4px;
+  background: var(--IRIS, #4d5ae5);
+  color: #ffffff;
+}
+.footer-form-email-btn-icon {
+  fill: #ffffff;
+}
+
+.backdrop {
+  width: 408px;
+  min-height: 584px;
+  border-radius: 4px;
+  background: #fcfcfc;
+}
+.is-open {
+}
+.modal {
+  position: relative;
+  padding: 72px 24px 24px 24px;
+}
+.modal-btn {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  color: #2e2f42;
+  border-radius: 4px;
+}
+.modal-btn-icon {
+  stroke: currentColor;
+  width: 8px;
+  height: 8px;
+}
+.modal-caption {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}

@@ -388,6 +388,8 @@
         </section>
     </main>
 
+
+    <!--Footer-->
     <footer class="footer">
 
         <div class="container">
@@ -431,10 +433,41 @@
                         </a></li>
                 </ul>
             </div>
+            <div class="footer-form-email">
+
+                <form class="footer-form-email-form">
+                    <p class="footer-form-email-title">Subscribe</p>
+                    <label>
+
+                        <input class="footer-form-email-input" type="email" name="email" placeholder="Email" />
+                    </label>
+                    <button class="footer-form-email-btn" type="submit">Subscribe
+                        <svg class="footer-form-email-btn-icon" width="24" height="24">
+                            <use href="./images/icons.svg#icon-frame"></use>
+                        </svg>
+                    </button>
+
+
+                </form>
+            </div>
         </div>
 
 
+
     </footer>
+
+    <!--Madal window-->
+    <div class="backdrop is-open">
+        <div class="modal">
+            <button class="modal-btn" type="button" aria-label="Modal close button">
+                <svg class="modal-btn-icon" width="28" height="28">
+                    <use href="./images/icons.svg#icon-x-code"></use>
+                </svg>
+            </button>
+            <p class="modal-caption">Leave your contacts and we will call you back</p>
+        </div>
+        <form class="modal-fom" name="modal"></form>
+    </div>
 </body>
 
 </html>

@@ -314,6 +314,20 @@ body a {
   border-color: #4d5ae5;
 }
 
+.form-agreement {
+  display: block;
+  margin-bottom: 24px;
+}
+.form-agreement-checkbox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-agreement-icon {
+}
+.form-agreement-link {
+}
+
 /*SECTION-ONE*/
 .section-one {
   padding-top: 120px;

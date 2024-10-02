@@ -250,6 +250,24 @@ button {
 }
 .about-item {
 }
+.about-wrapper {
+  position: relative;
+}
+.about-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 27px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background-color: rgba(47, 48, 58, 0.8);
+}
 
 /*Our comand*/
 .our-comand {
@@ -515,13 +533,34 @@ button {
 }
 .works-item {
   width: calc((100% - 2 * 30px) / 3);
+  cursor: pointer;
 }
 .works-item:hover {
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
+.works-wrapper {
+  position: relative;
+}
 .works-img {
   display: block;
+}
+
+.works-owerlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  background-color: rgba(33, 150, 243, 0.9);
 }
 .works-item-content {
   padding: 20px 24px;

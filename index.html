@@ -127,19 +127,19 @@
         <ul class="about-list">
           <li class="about-item">
             <div class="about-wrapper">
-              <img src="./images/aboutme/about-1.jpg" alt="about-1" width="370" height="294" />
+              <img class="about-img" src="./images/aboutme/about-1.jpg" alt="about-1" width="370" height="294" />
               <p class="about-overlay">Десктопні додатки</p>
             </div>
           </li>
           <li class="about-item">
             <div class="about-wrapper">
-              <img src="./images/aboutme/about-2.jpg" alt="about-2" width="370" height="294" />
+              <img class="about-img" src="./images/aboutme/about-2.jpg" alt="about-2" width="370" height="294" />
               <p class="about-overlay">Мобільні додатки</p>
             </div>
           </li>
           <li class="about-item">
             <div class="about-wrapper">
-              <img src="./images/aboutme/about-3.jpg" alt="about-3" width="370" height="294" />
+              <img class="about-img" src="./images/aboutme/about-3.jpg" alt="about-3" width="370" height="294" />
               <p class="about-overlay">Мобільні додатки</p>
             </div>
           </li>
@@ -405,8 +405,14 @@
   </footer>
 
   <!--MODAL WINDOW-->
-  <div class="backdrop">
-
+  <div class="backdrop is-open">
+    <div class="modal-window">
+      <button class="modal-button" type="button">
+        <svg class="modal-svg" width="18" height="18">
+          <use href="./images/icons.svg#icon-vector"></use>
+        </svg>
+      </button>
+    </div>
   </div>
 </body>
 

@@ -530,8 +530,15 @@ button {
   border-radius: 4px;
   outline: none;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  background: rgba(33, 150, 243, 0);
+  background-color: rgba(33, 150, 243, 0);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.footer-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  line-height: 1.25; /* 125% */
+  letter-spacing: 0.03em;
 }
 .footer-form-btn {
   display: flex;

@@ -519,9 +519,11 @@ button {
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.footer-label {
+.footer-form-wrapper {
   display: flex;
   gap: 12px;
+}
+.footer-label {
 }
 .footer-input {
   width: 358px;
@@ -543,11 +545,15 @@ button {
 .footer-form-btn {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   border-radius: 4px;
   background-color: #2196f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  padding: 10px 28px;
+  border: none;
+  cursor: pointer;
+  min-width: 200px;
+  height: 50px;
   color: #fff;
   text-align: center;
   font-weight: 700;

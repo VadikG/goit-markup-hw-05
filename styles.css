@@ -606,7 +606,7 @@ button {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -24%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
   width: 528px;
   min-height: 581px;
   padding: 40px;
@@ -645,7 +645,7 @@ button {
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 }
 
 .modal-form {
@@ -697,6 +697,7 @@ button {
   font-size: 12px;
   line-height: normal;
   letter-spacing: 0.01em;
+  margin-bottom: 4px;
 }
 .modal-texterea {
   min-width: 100%;
@@ -716,6 +717,77 @@ button {
 .modal-texterea:hover,
 .modal-texterea:focus {
   border-color: #2196f3;
+}
+
+.user-privacy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100%;
+  margin-bottom: 30px;
+}
+.user-privacy-input {
+}
+.user-privacy-label {
+  color: #757575;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.71; /* 171.429% */
+  letter-spacing: 0.03em;
+  user-select: none;
+}
+.user-privacy-span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #212121;
+  border-radius: 2px;
+  width: 16px;
+  height: 15px;
+  cursor: pointer;
+  transition: background-color 250ms, border 250ms;
+  margin-right: 8px;
+}
+.user-privacy-svg {
+  fill: currentColor;
+  opacity: 0;
+  transform: scale(0);
+  transition: opacity 250ms, transform 250ms;
+}
+.user-privacy-input:checked + .user-privacy-label > .user-privacy-span {
+  background-color: #2196f3;
+  border-color: #2196f3;
+}
+.user-privacy-input:checked
+  + .user-privacy-label
+  .user-privacy-span
+  .user-privacy-svg {
+  opacity: 1;
+  transform: scale(1);
+}
+.user-privacy-link {
+  color: #2196f3;
+  text-decoration-line: underline;
+}
+
+.modal-form-btn {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.87; /* 187.5% */
+  letter-spacing: 0.06em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-form-btn:hover,
+.modal-form-btn:focus {
+  background-color: #188ce8;
 }
 /*PORTFOLIO*/
 /*Section Works*/

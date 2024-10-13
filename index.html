@@ -12,7 +12,9 @@
     href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet" />
   <!--Normalize-->
-  <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+
   <!--CSS-->
   <link rel="stylesheet" href="./styles.css" />
 </head>
@@ -458,9 +460,23 @@
           <label class="modal-texterea-label" for="user_coment">Коментар</label>
           <textarea class="modal-texterea" id="user_coment" placeholder="Введіть текст"></textarea>
         </div>
+        <div class="user-privacy">
+          <input class="user-privacy-input visually-hidden" type="checkbox" id="user_privacy" value="fouls" checked>
+          <label class="user-privacy-label" for="user_privacy">
+            <span class="user-privacy-span">
+              <svg class="user-privacy-svg" width="11" height="8">
+                <use href="./images/icons.svg#icon-check"></use>
+              </svg>
+            </span>
+            Погоджуюся з розсилкою та приймаю
+            <a class="user-privacy-link" href="">Умови договору</a>
+          </label>
+        </div>
+        <button class="modal-form-btn" type="button">Відправити</button>
       </form>
     </div>
   </div>
+
 </body>
 
 </html>
